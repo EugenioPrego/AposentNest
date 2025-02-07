@@ -1,0 +1,92 @@
+@import url(../../../../assets/css/main.css);
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: .5rem solid #20c997;
+    background-color: var(--branco);
+    box-shadow: 4px 4px 8px rgb(212, 212, 212);
+    border-radius: 8px;
+}
+.cards i{
+    color: #20c997;
+    font-size: 2.5rem;
+}
+.cards .txt{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem ;
+    align-items: center;
+}
+.cards .txt p{
+    color: rgb(109, 109, 109);
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+.cards .txt strong{
+    color: #1f6852;
+    font-size: .8rem;
+}
+.container-main{
+
+    /* background-color: #ccc; */
+    display: grid;
+    grid-template-rows: 30% 65%;
+    gap: 1rem;
+    padding: 10px 10px;
+    overflow-y: scroll;
+    
+}
+
+.container-main-card{
+
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 10px 10px;
+    
+
+}
+
+.container-main-chartjs{
+
+    /* background-color: #1f6852; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 10px 10px;
+
+}
+
+.container-main-chartjs1, .container-main-chartjs2{
+
+    background-color: var(--branco);
+    box-shadow: 4px 4px 8px rgb(212, 212, 212);
+    border-radius: 8px;
+    border-right: .5rem solid #20c997;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-main-content{
+
+    /* background-color: aqua; */
+    /* top: 0; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 10px 10px;
+
+}
+
+.main-content1,.main-content2, .main-content3{
+
+    background-color: var(--branco);
+    box-shadow: 2px 2px 8px rgb(212, 212, 212);
+    border-radius: 8px;
+    
+}

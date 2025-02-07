@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sub-team{
+    text-align: center;
+    
+}
+
+.sub-team h2{
+    margin-top: 10%;
+    
+}
+
+.sub-team span{
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+img{
+    width: 200px;
+    height: 180px;
+    border-radius: 70%;
+    margin-top: 5%;
+}
+
+.images{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.images legend{
+    font-size: medium;
+    margin-bottom: 13%;
+}
+
+.images i{
+    margin: 6px;
+    border: 1px solid color rgba(255, 255, 255, 0.027);
+}
+
+section{
+    border: 1px solid color rgba(0, 0, 0, 0);
+    height: 60vh;
+    width: 240px;
+    background-color:rgba(0, 0, 0, 0.034);
+
+}
+
+section:hover{
+    border: 1px solid color rgba(0, 0, 0, 0);
+    background-color: rgba(0, 128, 0, 0.733);
+    color: white;
+}
+
+.clients{
+    text-align: center;
+}
+
+.sub-clients{
+    margin-bottom: 5%;
+} 
+
+#section2{
+    border: 1px solid color rgba(0, 0, 0, 0);
+    height: 78vh;
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.034);
+    color: black;
+}
+
+.carousel{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+#imagem2{
+    width: 60px;
+}
+
+.legenda{
+    font-size: medium;
+}
+
+.profi{
+    font-size: medium;
+    text-align: start;
+}
+
+#icone{
+    color: green;
+    text-align: end;
+}
+
+.star{
+    margin-left: 60%;
+}
+
+#citac{
+    margin-left: 60%;
+    color: green;
+    margin-top: 10vh;
+}
+
+#citac2{
+    color: green;
+    margin-right: 80%
+}
+
+.footer{
+    height: 80vh;
+    background-color:rgba(0, 0, 0, 0.658);
+}
+
+ul{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+hr{
+    margin-bottom: 8%;
+}
+
+.title{
+color: white;
+}
+
+.botao{
+    background-color: rgba(172, 255, 47, 0.863);
+    height: 12vh;
+    width: 25vh;
+    border: none;
+    border-radius: 10%;
+    color: white;
+}
+
+.botao2{
+    background-color:rgba(0, 0, 0, 0.829);
+    height: 12vh;
+    width: 20vh;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    margin: 4%;
+}
+
+.span{
+    color: rgba(255, 255, 255, 0.616) ;
+}
+
+.links:hover{
+color: greenyellow;
+margin: 3px;
+}
+
+#names:hover{
+    color: greenyellow;
+    }
+
+.icones3{
+    margin-top: 25%;
+    color: white;
+}
+
+.rodape{
+    background-color: rgba(0, 0, 0, 0.925);
+    height: 13vh;
+    display: flex;
+    justify-content:space-around; 
+}
+
+.argument{
+    margin-top: 2%;
+}
+
+.argument2{
+    margin-top: 2%;
+}
+
+@media(max-width:435px){
+    .images{
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    section{
+        border: 1px solid color rgba(0, 0, 0, 0);
+        height: 70vh;
+        width: 240px;
+        background-color:rgba(0, 0, 0, 0.034);
+    
+    }
+
+}
+
+@media(max-width:407px){
+    .footer{
+        height: 80vh;
+        width: 120%;
+        background-color:rgba(0, 0, 0, 0.658);
+    }
+
+    .rodape{
+        background-color: rgba(0, 0, 0, 0.925);
+        height: 13vh;
+        width: 120%;
+        display: flex;
+        justify-content:space-around; 
+    }   
+    
+    .botao{
+        background-color: rgba(172, 255, 47, 0.863);
+        height: 12vh;
+        width: 25vh;
+        border: none;
+        border-radius: 10%;
+        color: white;
+        margin-top: 8%;
+    }
+    
+    .botao2{
+        background-color:rgba(0, 0, 0, 0.829);
+        height: 12vh;
+        width: 20vh;
+        border: none;
+        border-radius: 10%;
+        color: white;
+        margin: 4%;
+        margin-top: 8%;
+    }
+
+}
+
+
+
+    
+
+
+
+
+

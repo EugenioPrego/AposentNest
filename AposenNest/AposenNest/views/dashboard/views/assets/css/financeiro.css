@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Para permitir o posicionamento absoluto do botão */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.finalizar-button {
+    position: absolute; /* Posiciona o botão de forma absoluta */
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    padding: 10px 15px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.finalizar-button:hover {
+    background-color: #c9302c;
+}
+
+.form-section {
+    display: none;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Espaçamento entre os grupos */
+}
+
+.input-group > button {
+    margin-top: 5px; /* Espaçamento entre os inputs e o botão "Remover" */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+select {
+    background-color: #fff; /* Fundo branco para o select */
+    -webkit-appearance: none; /* Remove o estilo padrão do select */
+    -moz-appearance: none; /* Remove o estilo padrão do select */
+    appearance: none; /* Remove o estilo padrão do select */
+    padding-right: 30px; /* Espaço para a seta */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%23444"><polygon points="5,7 10,12 15,7"/></svg>'); /* Seta personalizada */
+    background-repeat: no-repeat; /* Não repetir a imagem de fundo */
+    background-position: right 10px center; /* Posição da seta */
+}
